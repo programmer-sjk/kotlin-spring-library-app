@@ -58,9 +58,6 @@ class JunitCalculatorTest {
         // given
         val calculator = Calculator(5)
 
-        // when
-
-
         // then
         assertThrows<java.lang.IllegalArgumentException> { calculator.divide(0) }
     }
